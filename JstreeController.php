@@ -16,7 +16,6 @@ class JSTreeController extends PluginController
     
     function index()
     {
-        $test             = new Tree();
         $nodes            = $this->Tree->getnodes(1, 0, true);
 		
         $this->display('jstree/views/index', array(
