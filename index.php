@@ -5,7 +5,7 @@ Plugin::setInfos(array(
     'id' => 'jstree',
     'title' => __('jsTree'),
     'description' => __('jsTree concept plugin'),
-    'license' => 'GPL',
+    'license' => 'MIT',
     'website' => 'http://www.wolfcms.org/forum',
     'version' => '0.0.0',
     'require_wolf_version' => '0.7.5'
